@@ -1,0 +1,16 @@
+header {
+    background-color: #fafafa;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.name-input {
+    margin-left: auto;
+    padding: 10px;
+    margin-right: 5px;
+}

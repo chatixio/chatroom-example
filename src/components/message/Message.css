@@ -1,0 +1,17 @@
+.Message{
+    display: flex;
+    flex-direction: row;
+    margin: 10px
+}
+.Message .message-sender-icon {
+    width: 30px;
+}
+.Message .message-bubble {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.Message .message-sender-name {
+    font-weight: bold;
+}
