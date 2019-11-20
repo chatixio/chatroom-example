@@ -30,7 +30,7 @@ function MemberItem(props) {
             <span>
                 { getName() }
                 {
-                    props.member.uuid === props.me.uuid && " (Вы) "
+                    props.member.uuid === props.me.uuid && " (You) "
                 }
             </span>
             {

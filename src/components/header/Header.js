@@ -22,7 +22,7 @@ function Header(props) {
                     <input
                         className='name-input'
                         value={name}
-                        placeholder='Ваше имя'
+                        placeholder='Your name'
                         onChange={(e) => handleChangeName(e)}
                     />
                 : null
